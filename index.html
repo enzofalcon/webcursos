@@ -3,29 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto Web</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Matemática - Material para el Estudiante</title>
+    <link rel="stylesheet" href="estaticos/estilos/style.css">
 </head>
 <body>
+
     <header>
-        <h1>Bienvenido a Mi Proyecto</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Paginas/acerca.html">Acerca de</a></li>
-                <li><a href="Paginas/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="logo">
+            <h1>Matemática</h1>
+            <p>Material para uso del estudiante</p>
+        </div>
+        <div class="contacto">
+            <p>Prof. Enzo Falcón</p>
+            <p>Consultas: <a href="mailto:falcondocencia@gmail.com">falcondocencia@gmail.com</a></p>
+        </div>
     </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Principal</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Exámenes</a></li>
+            <li><a href="#">Planes y Reglamentos</a></li>
+            <li><a href="#">Enlaces de Interés</a></li>
+            <li><a href="#">Datos</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section>
-            <h2>Sección Principal</h2>
-            <p>Este es un proyecto inicial con HTML, CSS y JavaScript.</p>
-        </section>
+        <h2>Uso de la página</h2>
+        <p><strong>La presente página pretende hacer llegar a los alumnos de los cursos que dicto en UTU el material dado en clases.</strong></p>
+        <p>De acuerdo al curso se irán subiendo fichas teóricas de las clases, prácticos y material extra que se crea conveniente.</p>
+        
+        <h3>Secciones:</h3>
+        <ul>
+            <li><strong>Cursos:</strong> Menú donde podrán navegar por los diferentes cursos.</li>
+            <li><strong>Material extra:</strong> Evaluaciones de años anteriores.</li>
+            <li><strong>Planes y reglamentos:</strong> Planes y significado de las asignaturas.</li>
+        </ul>
+
+        <div class="qr-section">
+            <h3>Código QR de la web</h3>
+            <img src="estaticos/imagenes/qr.png" alt="Código QR">
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2024 Mi Proyecto Web</p>
-    </footer>
-    <script src="js/script.js"></script>
+
 </body>
 </html>
