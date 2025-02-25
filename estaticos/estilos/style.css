@@ -1,33 +1,24 @@
-/* General */
-body {
-    font-family: Arial, sans-serif;
+/* Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
 }
 
-/* Contenedor principal */
-.contenedor {
+body {
+    font-family: Arial, sans-serif;
     display: flex;
-    min-height: 100vh;
 }
 
 /* Menú lateral */
 .menu-lateral {
-    width: 250px;
-    background-color: #1d4567;
-    color: white;
-    padding: 20px;
-    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    background: #2c3e50;
+    height: 100vh;
+    padding-top: 20px;
     position: fixed;
-    height: 100%;
-}
-
-.menu-lateral h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    left: 0;
+    top: 0;
 }
 
 .menu-lateral ul {
@@ -36,7 +27,8 @@ body {
 }
 
 .menu-lateral ul li {
-    margin-bottom: 15px;
+    text-align: center;
+    margin: 15px 0;
 }
 
 .menu-lateral ul li a {
@@ -44,82 +36,20 @@ body {
     color: white;
     font-size: 18px;
     display: block;
-    padding: 10px;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
+    padding: 15px;
+    transition: all 0.3s ease;
 }
 
-/* Efecto de brillo/relieve al pasar el mouse */
+/* Efecto hover (brillo o relieve) */
 .menu-lateral ul li a:hover {
-    background-color: #f39c12;
-    box-shadow: 0px 0px 10px rgba(243, 156, 18, 0.8);
-    transform: scale(1.05);
+    background: #34495e;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
 }
 
 /* Contenido principal */
-.contenido {
-    margin-left: 250px;
+main {
+    margin-left: 220px; /* Para que el contenido no se superponga al menú */
     padding: 20px;
-    flex: 1;
-}
-
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-    border-bottom: 3px solid orange;
-}
-
-.logo h1 {
-    margin: 0;
-    color: navy;
-}
-
-.logo p {
-    color: orange;
-    font-weight: bold;
-}
-
-.contacto p {
-    margin: 0;
-    text-align: right;
-}
-
-/* Sección principal */
-.info {
-    max-width: 900px;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-/* QR */
-.qr-section {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.qr-section img {
-    width: 150px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .contenedor {
-        flex-direction: column;
-    }
-
-    .menu-lateral {
-        width: 100%;
-        position: static;
-        height: auto;
-    }
-
-    .contenido {
-        margin-left: 0;
-    }
+    flex-grow: 1;
 }
