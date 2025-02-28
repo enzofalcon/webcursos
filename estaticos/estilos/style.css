@@ -1,55 +1,114 @@
-/* Reset */
+/* Estilos generales */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Evita que padding y border alteren el tamaño de los elementos */
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     display: flex;
+    min-height: 100vh; /* Asegura que el cuerpo ocupe toda la altura */
+    background-color: #f5f5f5;
 }
 
 /* Menú lateral */
-.menu-lateral {
-    width: 220px;
-    background: #2c3e50;
-    height: 100vh;
-    padding-top: 20px;
+#menu-container {
+    width: 220px; /* Ancho fijo */
+    height: 100vh; /* Toda la altura */
     position: fixed;
     left: 0;
     top: 0;
+    background-color: #333; /* Fondo oscuro */
+    padding-top: 20px;
+    overflow-y: auto; /* Permite desplazamiento si hay mucho contenido */
 }
 
-.menu-lateral ul {
+/* Lista del menú */
+#menu-container ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-.menu-lateral ul li {
-    text-align: center;
-    margin: 15px 0;
+/* Elementos del menú */
+#menu-container li {
+    text-align: left;
+    padding: 10px;
 }
 
-.menu-lateral ul li a {
+/* Enlaces del menú */
+#menu-container a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
     display: block;
-    padding: 15px;
+    padding: 12px 20px;
+    font-size: 18px;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
-/* Efecto hover (brillo o relieve) */
-.menu-lateral ul li a:hover {
-    background: #34495e;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
-    border-radius: 5px;
+/* Efecto hover en los enlaces */
+#menu-container a:hover {
+    background-color: #555; /* Color más claro */
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+/* Datos del profesor */
+.datos-profesor {
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+    text-align: left;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 20px;
+}
+
+/* Nombre del profesor */
+.datos-profesor h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Texto "Consultas:" */
+.datos-profesor p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Contenedor del correo */
+.datos-profesor .email {
+    display: flex;
+    align-items: center;
+    font-size: 10px; /* Hace que todo el contenido del correo sea más pequeño */
+    color: #FFD700;
+    margin-top: 5px;
+}
+
+/* Ícono de sobre */
+.datos-profesor .email i {
+    margin-right: 5px;
+    font-size: 12px; /* Tamaño adecuado para el icono */
+}
+
+/* Enlace del correo */
+.datos-profesor .email a {
+    font-size: 12px !important; /* Tamaño más pequeño y forzado */
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.datos-profesor .email a:hover {
+    text-decoration: underline;
 }
 
 /* Contenido principal */
 main {
-    margin-left: 220px; /* Para que el contenido no se superponga al menú */
+    margin-left: 220px; /* Deja espacio para el menú */
     padding: 20px;
     flex-grow: 1;
+    background-color: white;
+    min-height: 100vh; /* Para evitar problemas de altura */
 }
