@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuContainer = document.getElementById("menu-container");
 
     if (menuContainer) {
-        fetch('../../menu.html')
+        fetch("menu.html")
             .then(response => {
                 if (!response.ok) throw new Error("No se pudo cargar el menú");
                 return response.text();
