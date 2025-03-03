@@ -55,54 +55,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Datos del profesor */
-.datos-profesor {
-    margin-top: 20px;
-    padding: 15px;
-    color: white;
-    text-align: left;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    background-color: rgba(0, 0, 0, 0.3);
-    padding-left: 20px;
-}
-
-/* Nombre del profesor */
-.datos-profesor h3 {
-    margin: 0;
-    font-size: 16px;
-}
-
-/* Texto "Consultas:" */
-.datos-profesor p {
-    margin: 5px 0;
-    font-size: 14px;
-}
-
-/* Contenedor del correo */
-.datos-profesor .email {
-    display: flex;
-    align-items: center;
-    font-size: 10px; /* Hace que todo el contenido del correo sea más pequeño */
-    color: #FFD700;
-    margin-top: 5px;
-}
-
-/* Ícono de sobre */
-.datos-profesor .email i {
-    margin-right: 5px;
-    font-size: 12px; /* Tamaño adecuado para el icono */
-}
-
-/* Enlace del correo */
-.datos-profesor .email a {
-    font-size: 12px !important; /* Tamaño más pequeño y forzado */
-    color: #FFD700;
-    text-decoration: none;
-}
-
-.datos-profesor .email a:hover {
-    text-decoration: underline;
-}
 
 /* Contenido principal */
 main {
@@ -112,3 +64,117 @@ main {
     background-color: white;
     min-height: 100vh; /* Para evitar problemas de altura */
 }
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+#menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list li {
+    padding: 10px;
+}
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    #menu-toggle {
+        display: block;
+    }
+
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        background: #222;
+    }
+
+    .menu-list.active {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Mantener el botón de menú visible */
+    #menu-toggle {
+        display: block;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        z-index: 1000;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+
+    /* Estado reducido del menú */
+    #menu-container {
+        width: 60px;
+        overflow: hidden;
+        transition: width 0.3s ease;
+    }
+
+    /* Cuando el usuario presiona el botón, el menú se expande */
+    #menu-container.expanded {
+        width: 220px; /* Menú desplegado */
+    }
+
+    /* Ajustar margen del contenido para que no quede solapado */
+    main {
+        margin-left: 60px;
+        transition: margin-left 0.3s ease;
+    }
+
+    /* Si el menú está expandido, el contenido se ajusta */
+    #menu-container.expanded + main {
+        margin-left: 220px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Ajusta la altura según prefieras */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 50px; /* Asegura que el contenido no quede detrás del footer */
+}
+
