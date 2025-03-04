@@ -247,3 +247,19 @@ a:hover {
         text-align: center;
     }
 }
+
+.icono {
+    border: 1px solid #000;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+.icono p {
+    text-align: center;
+}
+
+.icono:hover {
+    transform: scale(1.1);
+}
