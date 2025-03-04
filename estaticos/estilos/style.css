@@ -119,12 +119,15 @@ main {
             flex-direction: column;
             align-items: center;
             gap: 15px;
-            padding: 20px;
+            padding: 10px;
+            width: auto;
+            margin-left: 0%;
+            margin-right: 0%;
         }
         .columna {
             width: 90%;
             max-width: 400px;
-            font-size: 12px; /* Texto más pequeño para pantallas pequeñas */
+            font-size: 10px; /* Texto más pequeño para pantallas pequeñas */
         }
 }
 
@@ -157,12 +160,12 @@ main {
 
     /* Ajustar margen del contenido para que no quede solapado */
     main {
-        margin-left: 60px;
-        transition: margin-left 0.3s ease;
+        margin-left: 50px;
+        margin-right: 0px;
     }
 
     /* Si el menú está expandido, el contenido se ajusta */
-    #menu-container.expanded + main {
+    #menu-container.expanded {
         margin-left: 220px;
     }
 }
