@@ -241,7 +241,9 @@ a:hover {
         padding: 30px;
     }
     .columna {
-        width: 45%;
-        max-width: 350px;
+        width: auto; /* Se ajusta al contenido */
+        max-width: 90%; /* Para que no ocupe más del 90% de la pantalla */
+        padding: 20px;
+        text-align: center;
     }
 }
