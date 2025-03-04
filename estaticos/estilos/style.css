@@ -124,6 +124,7 @@ main {
         .columna {
             width: 90%;
             max-width: 400px;
+            font-size: 12px; /* Texto más pequeño para pantallas pequeñas */
         }
 }
 
@@ -260,6 +261,3 @@ a:hover {
     text-align: center;
 }
 
-.icono:hover {
-    transform: scale(1.1);
-}
