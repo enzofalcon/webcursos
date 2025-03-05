@@ -119,15 +119,11 @@ main {
             flex-direction: column;
             align-items: center;
             gap: 15px;
-            padding: 10px;
-            width: auto;
-            margin-left: 0%;
-            margin-right: 0%;
+            padding: 20px;
         }
         .columna {
             width: 90%;
             max-width: 400px;
-            font-size: 10px; /* Texto más pequeño para pantallas pequeñas */
         }
 }
 
@@ -160,12 +156,12 @@ main {
 
     /* Ajustar margen del contenido para que no quede solapado */
     main {
-        margin-left: 50px;
-        margin-right: 0px;
+        margin-left: 60px;
+        transition: margin-left 0.3s ease;
     }
 
     /* Si el menú está expandido, el contenido se ajusta */
-    #menu-container.expanded {
+    #menu-container.expanded + main {
         margin-left: 220px;
     }
 }
@@ -253,7 +249,6 @@ a:hover {
 }
 
 .icono {
-    border: 1px solid #000;
     width: 80px;
     height: 80px;
     margin: 0 auto;
@@ -264,3 +259,53 @@ a:hover {
     text-align: center;
 }
 
+.icono:hover {
+    transform: scale(1.1);
+}
+
+/* Cambiar dirección de las secciones */
+.subsecciones {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    gap: 20px; /* Espaciado entre Fichas y Diapositivas */
+}
+
+.subsecciones div {
+    text-align: center; /* Centrar contenido dentro de cada bloque */
+}
+
+ul {
+    padding-left: 20px; /* Ajusta el espacio desde el borde izquierdo */
+    list-style-position: inside; /* Coloca la viñeta dentro del contenido del elemento */
+}
+
+li {
+    margin-left: 0; /* Elimina el margen adicional */
+    padding-left: 5px; /* Opcional: espacio entre la viñeta y el texto */
+}
+
+.iconos-grupo {
+    display: flex; /* Muestra los íconos en fila */
+    flex-direction: column; /* Los organiza verticalmente */
+    align-items: center; /* Centra los íconos y los textos */
+    gap: 30px; /* Espacio entre los bloques de íconos */
+    margin: 20px 20px; /* Margen externo superior e inferior del grupo */
+}
+
+.icono {
+    display: flex;
+    flex-direction: column; /* Coloca imagen y texto en una columna */
+    align-items: center; /* Centra la imagen y el texto */
+    text-align: center;
+    gap: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.icono img {
+    width: 60px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+
+.icono p {
+    margin: 0; /* Elimina márgenes extra */
+    font-size: 12px; /* Tamaño ajustado del texto */
+}
