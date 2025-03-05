@@ -164,6 +164,11 @@ main {
     #menu-container.expanded + main {
         margin-left: 220px;
     }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
 }
 
 footer {
@@ -179,7 +184,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 footer a {
@@ -309,4 +313,14 @@ li {
 .icono p {
     margin: 0; /* Elimina márgenes extra */
     font-size: 12px; /* Tamaño ajustado del texto */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    flex: 1; /* Hace que el contenido empuje el footer hacia abajo */
+    padding-bottom: 60px; /* Evita que el footer tape el contenido */
 }
