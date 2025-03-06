@@ -324,3 +324,7 @@ html, body {
     flex: 1; /* Hace que el contenido empuje el footer hacia abajo */
     padding-bottom: 60px; /* Evita que el footer tape el contenido */
 }
+
+.content {
+    padding-bottom: 80px; /* Asegura que el contenido no quede debajo del footer */
+}
