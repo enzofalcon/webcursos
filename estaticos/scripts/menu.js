@@ -57,4 +57,12 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("footer-container").innerHTML = html;
         })
         .catch(error => console.error("Error al cargar el footer:", error));
+
+
 });
+function redirigirEjemplo() {
+    var seleccion = document.getElementById("ejemplos-select").value;
+    if (seleccion) {
+        window.open(seleccion, "_blank"); // Abre el enlace en una nueva pestaña
+    }
+}
