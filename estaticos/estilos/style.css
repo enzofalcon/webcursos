@@ -335,3 +335,27 @@ html, body {
     font-size: 16px;
     margin: 10px 0;
 }
+
+.tooltip {
+    position: relative;
+    text-decoration: none;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 100%;  /* Lo posiciona a la derecha */
+    top: 50%;
+    transform: translateY(-50%); /* Centra verticalmente */
+    white-space: nowrap;
+    margin-left: 5px; /* Espaciado opcional */
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
