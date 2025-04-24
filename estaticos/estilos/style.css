@@ -127,6 +127,8 @@ main {
         }
 }
 
+
+   /* Responsive: */
 @media screen and (max-width: 768px) {
     /* Mantener el botón de menú visible */
     #menu-toggle {
@@ -146,6 +148,7 @@ main {
     #menu-container {
         width: 60px;
         overflow: hidden;
+        height:100%;
         transition: width 0.3s ease;
     }
 
