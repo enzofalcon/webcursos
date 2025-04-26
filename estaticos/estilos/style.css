@@ -368,6 +368,11 @@ html, body {
 #materiales-anteriores {
     margin-top: 40px;
     padding: 10px 20px;
+
+    max-width: 600px; /* ancho máximo para que no quede todo desparramado */
+    margin: 0 auto; /* centra el bloque */
+
+    text-align: left
 }
 
 #materiales-anteriores h2 {
