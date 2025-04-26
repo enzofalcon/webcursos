@@ -362,3 +362,25 @@ html, body {
 .tooltip:hover .tooltip-text {
     visibility: visible;
 }
+
+
+/*Materiales*/
+#materiales-anteriores {
+    margin-top: 40px;
+    padding: 10px 20px;
+}
+
+#materiales-anteriores h2 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#materiales-anteriores a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#materiales-anteriores a:hover {
+    text-decoration: underline;
+}
