@@ -269,12 +269,24 @@ a:hover {
 }
 
 .icono p {
-    text-align: center;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.2;
+    word-wrap: break-word;
 }
 
 .icono:hover {
     transform: scale(1.1);
 }
+
+.titulo-icono {
+    font-weight: bold;
+}
+
+.subtitulo-icono {
+    font-weight: normal;
+}
+
 
 /* Cambiar dirección de las secciones */
 .subsecciones {
