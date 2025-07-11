@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1MA Lógica y métodos discretos ESI</title>
+    <!-- Enlaza tu hoja de estilos principal -->
+    <link rel="stylesheet" href="../estaticos/estilos/style.css">
+</head>
+<body>
+    <!-- Menú (cargado dinámicamente) -->
+    <div id="menu-container"></div>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Título y “imagen” del grupo -->
+        <h1>
+            <img src="../estaticos/imagenes/1MALogica-ESI.png" alt="1ºMA Logica y métodos" style="width: 100%; max-width: 1000px; height: auto;">
+        </h1>
+        
+
+        <!-- Contenedor con dos columnas -->
+        <div class="contenedor">
+            <!-- COLUMNA IZQUIERDA -->
+            <div class="columna">
+                <label for="ejemplos-select">Guías</label>
+                <select id="ejemplos-select" onchange="redirigirEjemplo()">
+                    <option value="">-- Seleccionar --</option>
+                     <option value="">Directorio en Drive</option>
+                </select>
+                <hr style="border-top: 2px dashed #ccc; margin: 20px 0;"> <!-- Línea discontinua -->
+                <!-- Sub-secciones: Fichas y Diapositivas -->
+                <div class="subsecciones">
+                    <div>
+                        <h3>Fichas</h3>
+                        <ul>
+                            <li><a href="" class="tooltip">
+                                Ficha 0<span class="tooltip-text">
+                                    Información de la unidad curricular</span></a></li>
+                        </ul>
+                    </div>
+                     <!-- Línea discontinua -->
+                     <hr style="border-top: 2px dashed #ccc; margin: 20px 0;">
+                     <div>
+                         <h3>Prácticos</h3>
+                         <ul>
+                             <li><a href="" class="tooltip">
+                                 Práctico 1<span class="tooltip-text">
+                                     Primeras prácticas</span></a></li>
+                        </ul>
+                     </div>     <!-- Línea discontinua -->
+                  <hr style="border-top: 2px dashed #ccc; margin: 20px 0;">
+                    <div>
+                        <h3>Diapositivas</h3>
+                        <ul>
+                            <li><a href="" class="tooltip">
+                                Presentación 0<span class="tooltip-text">
+                                    Información del curso</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- COLUMNA DERECHA -->
+            <div class="columna">
+                <div class="iconos-grupo">
+                    <div class="icono">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <img src="../estaticos/imagenes/lista-de-verificacion.png" alt="Planificación">
+                        </a>
+                        <p class="titulo-icono">Planificación</p>
+                    </div>
+                    <div class="icono">
+                        <a href="https://drive.google.com/drive/folders/1coC25x_yWIW8deR4Gnq_3Mh45bfbtcTC?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <img src="../estaticos/imagenes/libro.png" alt="Bibliografía">
+                        </a>
+                        <p class="titulo-icono">Bibliografía</p>
+                    </div>
+                    <div class="icono">
+                        <a href="https://drive.google.com/drive/u/1/folders/1LkX2pnpjkvpHM1GsxiM4-HbcR6rWkIoJ" target="_blank" rel="noopener noreferrer">
+                            <img src="../estaticos/imagenes/pizarra.png" alt="Pizarra">
+                        </a>
+                        <p class="titulo-icono">Pizarra</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (cargado dinámicamente) -->
+    <div id="footer-container"></div>
+
+    <!-- Script para cargar menú y footer -->
+    <script src="../estaticos/scripts/menu.js"></script>
+</body>
+</html>
