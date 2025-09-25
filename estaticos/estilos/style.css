@@ -296,7 +296,7 @@ a:hover {
 }
 
 .subsecciones div {
-    text-align: center; /* Centrar contenido dentro de cada bloque */
+    text-align: left; /* Centrar contenido dentro de cada bloque */
 }
 
 ul {
@@ -357,27 +357,31 @@ html, body {
 }
 
 .tooltip {
-    position: relative;
-    text-decoration: none;
+  position: relative;
+  cursor: pointer;  /* cambia el puntero */
 }
 
 .tooltip-text {
-    visibility: hidden;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    border-radius: 5px;
-    position: absolute;
-    left: 100%;  /* Lo posiciona a la derecha */
-    top: 50%;
-    transform: translateY(-50%); /* Centra verticalmente */
-    white-space: nowrap;
-    margin-left: 5px; /* Espaciado opcional */
+  visibility: hidden;
+  opacity: 0;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 5px;
+  position: absolute;
+  left: 100%;      /* a la derecha del enlace */
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  margin-left: 10px;
+  transition: opacity 0.3s;
+  z-index: 10;
 }
 
 .tooltip:hover .tooltip-text {
     visibility: visible;
+    opacity: 1;
 }
 
 
@@ -403,4 +407,10 @@ html, body {
 
 #materiales-anteriores a:hover {
     text-decoration: underline;
+}
+
+.descripcion {
+  margin: 2px 0 10px 20px;  /* sangría hacia la derecha */
+  font-size: 13px;
+  color: #555;           /* gris suave para diferenciarlo del link */
 }
