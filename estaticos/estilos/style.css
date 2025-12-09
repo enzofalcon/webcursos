@@ -384,25 +384,47 @@ html, body {
     opacity: 1;
 }
 
-
 /*Materiales*/
 #materiales-anteriores {
     margin-top: 40px;
     padding: 10px 20px;
-    max-width: 600px; /* ancho máximo para que no quede todo desparramado */
-    margin: 0 auto; /* centra el bloque */
-    text-align: left
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
 }
 
-#materiales-anteriores h2 {
-    margin-bottom: 5px;
+#materiales-anteriores .anio {
+    margin-top: 40px;        /* Más separación entre bloques */
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 1.4rem;       /* Un poco más grande */
     color: #333;
+}
+
+#materiales-anteriores ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Más aire entre materias */
+#materiales-anteriores li {
+    margin-bottom: 24px;  /* Espacio grande entre materias */
+    line-height: 1.4;         /* Mejora la lectura */
+}
+
+/* Título de materia separado del link */
+#materiales-anteriores li strong {
+    display: block;
+    margin-bottom: 3px;
 }
 
 #materiales-anteriores a {
     color: #0077cc;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    margin-top: 2px;          /* Le da aire al enlace */
 }
 
 #materiales-anteriores a:hover {
@@ -410,7 +432,27 @@ html, body {
 }
 
 .descripcion {
-  margin: 2px 0 10px 20px;  /* sangría hacia la derecha */
+  margin: 2px 0 10px 20px;
   font-size: 13px;
-  color: #555;           /* gris suave para diferenciarlo del link */
+  color: #555;
+}
+
+/* Intro */
+.intro-materiales {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-materiales h1 {
+    font-size: 2rem;
+    color: #1E90FF;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+
+.subtitulo-intro {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 0;
 }
