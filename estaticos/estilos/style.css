@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 50px; /* Asegura que el contenido no quede detrás del footer */
     font-family: Arial, sans-serif;
     display: flex;
     min-height: 100vh; /* Asegura que el cuerpo ocupe toda la altura */
@@ -64,6 +65,7 @@ main {
     flex-grow: 1;
     background-color: white;
     min-height: 100vh; /* Para evitar problemas de altura */
+    
 }
 
 #menu {
@@ -124,6 +126,7 @@ main {
         .columna {
             width: 90%;
             max-width: 400px;
+            text-align: center;
         }
 }
 
@@ -194,22 +197,14 @@ footer a {
     text-decoration: none;
 }
 
-body {
-    margin: 0;
-    padding-bottom: 50px; /* Asegura que el contenido no quede detrás del footer */
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
 .contenedor {
     display: flex;
     justify-content: center;
     gap: 30px;
     padding: 40px;
     flex-wrap: wrap;
+    max-width: 1000px;  /* 👈 ACÁ sí */
+    margin: 0 auto;     /* 👈 centra */
 }
 
 .columna {
@@ -217,7 +212,8 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);    
+    text-align: center;
 }
 
 .titulo {
@@ -268,6 +264,22 @@ a:hover {
     transition: transform 0.3s;
 }
 
+
+.iconos-grupo {
+    display: flex; /* Muestra los íconos en fila */
+    flex-direction: column; /* Los organiza verticalmente */
+    align-items: center; /* Centra los íconos y los textos */
+    gap: 30px; /* Espacio entre los bloques de íconos */
+    margin: 20px 20px; /* Margen externo superior e inferior del grupo */
+}
+
+
+
+.icono img {
+    width: 60px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+
 .icono p {
     margin: 0;
     font-size: 12px;
@@ -309,32 +321,6 @@ li {
     padding-left: 5px; /* Opcional: espacio entre la viñeta y el texto */
 }
 
-.iconos-grupo {
-    display: flex; /* Muestra los íconos en fila */
-    flex-direction: column; /* Los organiza verticalmente */
-    align-items: center; /* Centra los íconos y los textos */
-    gap: 30px; /* Espacio entre los bloques de íconos */
-    margin: 20px 20px; /* Margen externo superior e inferior del grupo */
-}
-
-.icono {
-    display: flex;
-    flex-direction: column; /* Coloca imagen y texto en una columna */
-    align-items: center; /* Centra la imagen y el texto */
-    text-align: center;
-    gap: 10px; /* Espacio entre la imagen y el texto */
-}
-
-.icono img {
-    width: 60px; /* Ajusta el tamaño de la imagen */
-    height: auto;
-}
-
-.icono p {
-    margin: 0; /* Elimina márgenes extra */
-    font-size: 12px; /* Tamaño ajustado del texto */
-}
-
 html, body {
     margin: 0;
     padding: 0;
@@ -343,10 +329,6 @@ html, body {
 .content {
     flex: 1; /* Hace que el contenido empuje el footer hacia abajo */
     padding-bottom: 60px; /* Evita que el footer tape el contenido */
-}
-
-.content {
-    padding-bottom: 80px; /* Asegura que el contenido no quede debajo del footer */
 }
 
 #ejemplos-select {
@@ -455,4 +437,45 @@ html, body {
     font-size: 1.5rem;
     color: #555;
     margin: 0;
+}
+
+.info-curso {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.info-curso h3 {
+    margin-top: 0;
+    color: #1E90FF;
+}
+
+.info-curso p {
+    margin: 8px 0;
+}
+
+.btn-consulta {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #1E90FF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-consulta:hover {
+    background-color: #187bcd;
+}
+
+h1 img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px; /* mismo ancho que contenedor */
 }
