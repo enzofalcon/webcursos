@@ -551,3 +551,9 @@ h1 img {
     width: 100%;
     max-width: 1000px; /* mismo ancho que contenedor */
 }
+
+.columna iframe {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
