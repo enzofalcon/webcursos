@@ -1,0 +1,382 @@
+/* ==================================================
+   CATÁLOGO DE VIDEOJUEGOS
+   Estilos exclusivos de esta sección
+================================================== */
+
+
+/* ---------- GENERAL ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #17212b;
+    color: #ffffff;
+}
+
+
+/* ---------- ENCABEZADO ---------- */
+
+.catalogo-header {
+    background:
+        linear-gradient(
+            135deg,
+            #0d141c,
+            #1b3447
+        );
+
+    padding: 70px 8%;
+}
+
+.header-contenido {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.subtitulo {
+    color: #66c0f4;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.catalogo-header h1 {
+    margin: 10px 0;
+
+    font-size: 3rem;
+}
+
+.catalogo-header p {
+    max-width: 700px;
+
+    margin: 0;
+
+    color: #c7d5e0;
+
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+/* ---------- CONTENIDO ---------- */
+
+.catalogo-contenido {
+    width: 90%;
+
+    max-width: 1300px;
+
+    margin: 40px auto 70px;
+}
+
+
+/* ---------- PRESENTACIÓN ---------- */
+
+.catalogo-presentacion {
+    margin-bottom: 30px;
+}
+
+.catalogo-presentacion h2 {
+    margin-bottom: 5px;
+
+    font-size: 1.8rem;
+}
+
+.catalogo-presentacion p {
+    margin-top: 0;
+
+    color: #aebdca;
+}
+
+
+/* ---------- FILTROS ---------- */
+
+.catalogo-filtros {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-bottom: 15px;
+}
+
+.catalogo-filtros input,
+.catalogo-filtros select {
+    min-height: 44px;
+
+    padding: 10px 14px;
+
+    border: 1px solid #34495e;
+
+    border-radius: 4px;
+
+    font-size: 1rem;
+}
+
+.catalogo-filtros input {
+    flex: 1;
+
+    min-width: 250px;
+}
+
+.catalogo-filtros select {
+    background-color: #ffffff;
+
+    cursor: pointer;
+}
+
+
+/* ---------- RESULTADOS ---------- */
+
+.cantidad-resultados {
+    margin: 20px 0;
+
+    color: #8fa7b8;
+
+    font-size: 0.9rem;
+}
+
+
+/* ---------- GRILLA ---------- */
+
+.catalogo-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fill, minmax(250px, 1fr));
+
+    gap: 25px;
+}
+
+
+/* ---------- TARJETAS ---------- */
+
+.juego-card {
+    overflow: hidden;
+
+    background-color: #213243;
+
+    border-radius: 6px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.25);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.juego-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+/* ---------- PORTADA ---------- */
+
+.juego-portada {
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    background:
+        linear-gradient(
+            135deg,
+            #29465b,
+            #101820
+        );
+
+    color: #8aa7ba;
+
+    font-size: 1rem;
+}
+
+.juego-portada img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* ---------- INFORMACIÓN ---------- */
+
+.juego-info {
+    padding: 18px;
+}
+
+.juego-info h3 {
+    margin: 0 0 7px;
+
+    font-size: 1.35rem;
+}
+
+.juego-datos {
+    margin: 0 0 12px;
+
+    color: #66c0f4;
+
+    font-size: 0.85rem;
+}
+
+.juego-descripcion {
+    margin-bottom: 15px;
+
+    color: #c7d5e0;
+
+    line-height: 1.5;
+
+    font-size: 0.95rem;
+}
+
+
+/* ---------- ETIQUETAS ---------- */
+
+.juego-etiquetas {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 6px;
+
+    margin-bottom: 17px;
+}
+
+.etiqueta {
+    padding: 5px 8px;
+
+    background-color: #34495e;
+
+    border-radius: 3px;
+
+    color: #d6e4ee;
+
+    font-size: 0.75rem;
+}
+
+
+/* ---------- BOTÓN ---------- */
+
+.boton-juego {
+    display: inline-block;
+
+    padding: 9px 14px;
+
+    background-color: #66c0f4;
+
+    color: #10202d;
+
+    border-radius: 3px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.boton-juego:hover {
+    background-color: #8bd5ff;
+}
+
+
+/* ---------- SIN RESULTADOS ---------- */
+
+.sin-resultados {
+    display: none;
+
+    padding: 50px 0;
+
+    text-align: center;
+
+    color: #aebdca;
+}
+
+
+/* ---------- FOOTER PROVISORIO ---------- */
+
+.catalogo-footer {
+    padding: 25px;
+
+    background-color: #101820;
+
+    color: #aebdca;
+
+    text-align: center;
+}
+
+.catalogo-footer p {
+    margin: 5px;
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media (max-width: 700px) {
+
+    .catalogo-header {
+        padding: 45px 6%;
+    }
+
+    .catalogo-header h1 {
+        font-size: 2.1rem;
+    }
+
+    .catalogo-header p {
+        font-size: 1rem;
+    }
+
+    .catalogo-contenido {
+        width: 92%;
+
+        margin-top: 30px;
+    }
+
+    .catalogo-filtros {
+        flex-direction: column;
+    }
+
+    .catalogo-filtros input,
+    .catalogo-filtros select {
+        width: 100%;
+    }
+
+}
+
+/* ---------- VOLVER AL CURSO ---------- */
+
+.volver-curso {
+    display: block;
+    width: fit-content;
+
+    margin-bottom: 25px;
+
+    color: #c7d5e0;
+
+    text-decoration: none;
+
+    font-size: 0.9rem;
+
+    transition: color 0.2s ease;
+}
+
+.volver-curso:hover {
+    color: #66c0f4;
+}

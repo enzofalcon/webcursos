@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo de Videojuegos</title>
+
+    <!--
+        CSS exclusivo del catálogo.
+        No se agregan estos estilos al CSS general de la web.
+    -->
+    <link rel="stylesheet"
+          href="../../estaticos/estilos/catalogo-videojuegos.css">
+</head>
+
+
+<body>
+
+    <!-- ==================================================
+         ENCABEZADO
+    ================================================== -->
+
+    <header class="catalogo-header">
+
+        <div class="header-contenido">
+
+            <!-- Regreso al curso -->
+            <a href="../2MCMEVideojuegosITI.html"
+               class="volver-curso">
+                ← Volver al curso de Videojuegos
+            </a>
+
+
+            <span class="subtitulo">
+                Proyectos estudiantiles
+            </span>
+
+
+            <h1>
+                Catálogo de Videojuegos
+            </h1>
+
+
+            <p>
+                Una muestra de videojuegos desarrollados por estudiantes
+                a lo largo de las distintas generaciones del curso.
+            </p>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ==================================================
+         CONTENIDO PRINCIPAL
+    ================================================== -->
+
+    <main class="catalogo-contenido">
+
+
+        <!-- PRESENTACIÓN -->
+
+        <section class="catalogo-presentacion">
+
+            <h2>
+                Explorar videojuegos
+            </h2>
+
+            <p>
+                Conocé los proyectos, sus autores y las ideas desarrolladas
+                durante el curso.
+            </p>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             BUSCADOR Y FILTROS
+        ================================================== -->
+
+        <section class="catalogo-filtros">
+
+
+            <!-- Buscador -->
+
+            <input
+                type="search"
+                id="busqueda"
+                placeholder="Buscar un videojuego..."
+                aria-label="Buscar videojuego"
+            >
+
+
+            <!-- Filtro por año -->
+
+            <select
+                id="filtro-anio"
+                aria-label="Filtrar por año">
+
+                <option value="todos">
+                    Todos los años
+                </option>
+
+            </select>
+
+
+            <!-- Filtro por género -->
+
+            <select
+                id="filtro-genero"
+                aria-label="Filtrar por género">
+
+                <option value="todos">
+                    Todos los géneros
+                </option>
+
+            </select>
+
+
+            <!-- Filtro por curso -->
+
+            <select
+                id="filtro-curso"
+                aria-label="Filtrar por curso">
+
+                <option value="todos">
+                    Todos los cursos
+                </option>
+
+            </select>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             CANTIDAD DE RESULTADOS
+        ================================================== -->
+
+        <p id="cantidad-resultados"
+           class="cantidad-resultados">
+        </p>
+
+
+
+        <!-- ==================================================
+             CATÁLOGO
+
+             Las tarjetas de los videojuegos se generan
+             automáticamente desde JavaScript.
+        ================================================== -->
+
+        <section
+            id="lista-juegos"
+            class="catalogo-grid"
+            aria-live="polite">
+
+        </section>
+
+
+
+        <!-- ==================================================
+             SIN RESULTADOS
+        ================================================== -->
+
+        <p id="sin-resultados"
+           class="sin-resultados">
+
+            No se encontraron videojuegos con esos criterios.
+
+        </p>
+
+
+    </main>
+
+
+
+    <!-- ==================================================
+         PIE DE PÁGINA PROVISORIO
+    ================================================== -->
+
+    <footer class="catalogo-footer">
+
+        <p>
+            Catálogo de proyectos estudiantiles
+        </p>
+
+        <p>
+            Prof. Enzo Falcón
+        </p>
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         JAVASCRIPT EXCLUSIVO DEL CATÁLOGO
+    ================================================== -->
+
+    <script
+        src="../../estaticos/scripts/catalogo-videojuegos.js">
+    </script>
+
+
+</body>
+
+</html>
