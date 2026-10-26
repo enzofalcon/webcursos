@@ -1,0 +1,105 @@
+
+[
+  {
+    "id": "eco-slash",
+    "titulo": "ECO-SLASH",
+    "autores": [
+      "Thiago Colman",
+      "Lautaro Martínez"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "genero": "Arcade",
+    "tematica": "Medioambiente",
+    "descripcion": "Juego de reflejos en el que se cortan materiales reciclables y se evita cortar residuos no reciclables.",
+    "portada": "eco-slash.png",
+    "descarga": "https://drive.google.com/file/d/12t53iezwy4AalHFmTYn8Qabqf203Cw5i/view"
+  },
+  {
+    "id": "en-las-calles",
+    "titulo": "En Las Calles",
+    "autores": [
+      "Martín da Silveira"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "genero": "Aventura",
+    "tematica": "Problemáticas sociales",
+    "descripcion": "Aventura que aborda la situación de las personas que viven en la calle mediante escenarios, personajes y diálogos.",
+    "portada": "en-las-calles.png",
+    "descarga": "https://drive.google.com/file/d/1GYTHO1Rn6sLSLYjh4hsC1Mx_XCce4Izm/view"
+  },
+  {
+    "id": "verde",
+    "titulo": "Verde",
+    "autores": [
+      "Federico Gasdía",
+      "Mateo Esteche"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "genero": "Plataformas",
+    "tematica": "Medioambiente",
+    "descripcion": "Videojuego de plataformas centrado en la protección de los animales y el cuidado ambiental.",
+    "portada": "verde.png",
+    "descarga": "https://drive.google.com/file/d/1ps93edcf9-47ywtJBX7gIFRpWKdNNQLU/view"
+  },
+  {
+    "id": "cyberlost",
+    "titulo": "Cyberlost",
+    "autores": [
+      "Juan González"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "genero": "Plataformas",
+    "tematica": "Ciberacoso",
+    "descripcion": "Un personaje atrapado en un mundo virtual debe superar enemigos y obstáculos para encontrar una salida.",
+    "portada": "cyberlost.png",
+    "descarga": "https://drive.google.com/file/d/1lCKpEf5uLngw5MUoQR2LYI0_1_jokc2j/view"
+  },
+  {
+    "id": "getting-to-the-root",
+    "titulo": "Getting to the Root",
+    "autores": [
+      "Nahuel López",
+      "Juan Ignacio Souza"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "genero": "Boss Rush",
+    "tematica": "Salud mental",
+    "descripcion": "Aventura de enfrentamientos contra jefes que utiliza metáforas sobre el autoconocimiento y las emociones.",
+    "portada": "getting-to-the-root.png",
+    "descarga": "https://drive.google.com/file/d/1ned6TQLi7VvMYmm38kpzPzRY1ZFClY4L/view"
+  },
+  {
+    "id": "mindveil",
+    "titulo": "Mindveil",
+    "autores": [
+      "Sebastián Madruga",
+      "Juan Maldonado"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "genero": "Plataformas",
+    "tematica": "Salud mental",
+    "descripcion": "Aventura de plataformas que representa simbólicamente la ansiedad y la importancia de buscar ayuda.",
+    "portada": "mindveil.png",
+    "descarga": "https://drive.google.com/file/d/1ARZGazyYuwVU6oSHEi1y2Azc0tmRoCFa/view"
+  },
+  {
+    "id": "shinobu",
+    "titulo": "Shinobu",
+    "autores": [
+      "Facundo Pimentel"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "genero": "Aventura narrativa",
+    "tematica": "Salud mental",
+    "descripcion": "Historia interactiva sobre el duelo, los vínculos personales y la importancia de acompañar y pedir ayuda.",
+    "portada": "shinobu.png",
+    "descarga": "https://drive.google.com/file/d/10ecfBxELX6Im1GZO90eXNTpAdFdTCn2a/view"
+  }
+]
