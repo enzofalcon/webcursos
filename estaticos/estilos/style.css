@@ -709,3 +709,27 @@ h1 img {
         padding: 8px 14px 14px 14px;
     }
 }
+
+.proyecto-final {
+    text-align: center;
+}
+
+.proyecto-final .titulo-icono {
+    margin-bottom: 5px;
+}
+
+.arbol-proyecto {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.arbol-proyecto a {
+    font-size: 12px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.arbol-proyecto a:hover {
+    text-decoration: underline;
+}

@@ -66,3 +66,4 @@ function redirigirEjemplo() {
         window.open(seleccion, "_blank"); // Abre el enlace en una nueva pestaña
     }
 }
+
