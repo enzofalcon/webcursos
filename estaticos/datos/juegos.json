@@ -1,4 +1,3 @@
-
 [
   {
     "id": "eco-slash",
@@ -25,7 +24,7 @@
     "curso": "2.º ME",
     "genero": "Aventura",
     "tematica": "Problemáticas sociales",
-    "descripcion": "Aventura que aborda la situación de las personas que viven en la calle mediante escenarios, personajes y diálogos.",
+    "descripcion": "Aventura narrativa sobre la situación de las personas que viven en la calle.",
     "portada": "en-las-calles.png",
     "descarga": "https://drive.google.com/file/d/1GYTHO1Rn6sLSLYjh4hsC1Mx_XCce4Izm/view"
   },
@@ -40,7 +39,7 @@
     "curso": "2.º ME",
     "genero": "Plataformas",
     "tematica": "Medioambiente",
-    "descripcion": "Videojuego de plataformas centrado en la protección de los animales y el cuidado ambiental.",
+    "descripcion": "Juego de plataformas sobre la protección de animales y el cuidado ambiental.",
     "portada": "verde.png",
     "descarga": "https://drive.google.com/file/d/1ps93edcf9-47ywtJBX7gIFRpWKdNNQLU/view"
   },
@@ -54,7 +53,7 @@
     "curso": "2.º ME",
     "genero": "Plataformas",
     "tematica": "Ciberacoso",
-    "descripcion": "Un personaje atrapado en un mundo virtual debe superar enemigos y obstáculos para encontrar una salida.",
+    "descripcion": "Aventura de plataformas en un mundo virtual con enemigos y obstáculos.",
     "portada": "cyberlost.png",
     "descarga": "https://drive.google.com/file/d/1lCKpEf5uLngw5MUoQR2LYI0_1_jokc2j/view"
   },
@@ -69,7 +68,7 @@
     "curso": "2.º ME",
     "genero": "Boss Rush",
     "tematica": "Salud mental",
-    "descripcion": "Aventura de enfrentamientos contra jefes que utiliza metáforas sobre el autoconocimiento y las emociones.",
+    "descripcion": "Enfrentamientos contra jefes que representan emociones y autoconocimiento.",
     "portada": "getting-to-the-root.png",
     "descarga": "https://drive.google.com/file/d/1ned6TQLi7VvMYmm38kpzPzRY1ZFClY4L/view"
   },
@@ -84,7 +83,7 @@
     "curso": "2.º ME",
     "genero": "Plataformas",
     "tematica": "Salud mental",
-    "descripcion": "Aventura de plataformas que representa simbólicamente la ansiedad y la importancia de buscar ayuda.",
+    "descripcion": "Juego de plataformas que representa la ansiedad y la búsqueda de ayuda.",
     "portada": "mindveil.png",
     "descarga": "https://drive.google.com/file/d/1ARZGazyYuwVU6oSHEi1y2Azc0tmRoCFa/view"
   },
@@ -98,8 +97,140 @@
     "curso": "2.º ME",
     "genero": "Aventura narrativa",
     "tematica": "Salud mental",
-    "descripcion": "Historia interactiva sobre el duelo, los vínculos personales y la importancia de acompañar y pedir ayuda.",
+    "descripcion": "Historia interactiva sobre el duelo y los vínculos personales.",
     "portada": "shinobu.png",
     "descarga": "https://drive.google.com/file/d/10ecfBxELX6Im1GZO90eXNTpAdFdTCn2a/view"
+  },
+  {
+    "id": "ecocity",
+    "titulo": "EcoCity",
+    "autores": [],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Acción y aventura",
+    "tematica": "Medioambiente",
+    "descripcion": "Recorré una ciudad contaminada, recolectá residuos y enfrentá plagas para recuperar sus espacios.",
+    "portada": "ecocity.png",
+    "descarga": "https://drive.google.com/file/d/1a3pUWDK4LjFzWMuBle_FhrlK2FZNAG_w/view"
+  },
+  {
+    "id": "loto",
+    "titulo": "Loto",
+    "autores": [
+      "Olivia Sierra",
+      "Sarah Velasquez"
+    ],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Por confirmar",
+    "tematica": "Por confirmar",
+    "descripcion": "Proyecto estudiantil Loto. Descripción pendiente de confirmar con el informe.",
+    "portada": "loto.png",
+    "descarga": "https://drive.google.com/file/d/1VeSqNJSrDnw3mh9j-CSevkbHev6HcYX8/view"
+  },
+  {
+    "id": "bienestar-animal",
+    "titulo": "Bienestar Animal",
+    "autores": [],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Por confirmar",
+    "tematica": "Bienestar animal",
+    "descripcion": "Videojuego educativo sobre el bienestar animal. Descripción pendiente de confirmar con el informe.",
+    "portada": "bienestar-animal.png",
+    "descarga": "https://drive.google.com/file/d/18lnMEL2EHgd66EAtYmou_zGSimLRexch/view"
+  },
+  {
+    "id": "the-social-media-game",
+    "titulo": "The Social Media Game",
+    "autores": [],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Por confirmar",
+    "tematica": "Redes sociales",
+    "descripcion": "Proyecto estudiantil sobre redes sociales. Descripción pendiente de confirmar con el informe.",
+    "portada": "the-social-media-game.png",
+    "descarga": "https://drive.google.com/file/d/1N_j_OMp0rVcfzzb_X0sAg8RhWcAQYiAW/view"
+  },
+  {
+    "id": "barrio-en-juego",
+    "titulo": "Barrio en Juego",
+    "autores": [],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Por confirmar",
+    "tematica": "Por confirmar",
+    "descripcion": "Proyecto estudiantil Barrio en Juego. Descripción pendiente de confirmar con el informe.",
+    "portada": "barrio-en-juego.png",
+    "descarga": "https://drive.google.com/file/d/1vKSmq5lQYWdTIeGjo7BOwC32rz8cdNH3/view"
+  },
+  {
+    "id": "chitara",
+    "titulo": "Chitara",
+    "autores": [],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Por confirmar",
+    "tematica": "Por confirmar",
+    "descripcion": "Proyecto estudiantil Chitara. Descripción pendiente de confirmar con el informe.",
+    "portada": "chitara.png",
+    "descarga": "https://drive.google.com/file/d/1iobDxOM78BtHE8mcQNkUaGXD3vIQLlFG/view"
+  },
+  {
+    "id": "pasos-con-corazon",
+    "titulo": "Pasos con Corazón",
+    "autores": [
+      "Thiago Araújo",
+      "Juan Mendez"
+    ],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Por confirmar",
+    "tematica": "Por confirmar",
+    "descripcion": "Proyecto estudiantil Pasos con Corazón. Descripción pendiente de confirmar con el informe.",
+    "portada": "pasos-con-corazon.png",
+    "descarga": "https://drive.google.com/file/d/19TMWVjujUx3gxJPGZ2WW04nGFzmhAAdX/view"
+  },
+  {
+    "id": "limpiemos-uruguay",
+    "titulo": "Limpiemos Uruguay",
+    "autores": [
+      "Joaquín Alvarez",
+      "Bruno Gutierrez"
+    ],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Aventura",
+    "tematica": "Medioambiente",
+    "descripcion": "Recorré lugares de Montevideo, recogé residuos y clasificalos para avanzar por cuatro niveles.",
+    "portada": "limpiemos-uruguay.png",
+    "descarga": "https://drive.google.com/file/d/1C-A15bQ3vGkhmlgRquU2fJaarno8qv-f/view"
+  },
+  {
+    "id": "psychologische-praxis",
+    "titulo": "Psychologische Praxis",
+    "autores": [
+      "E. Acosta",
+      "D. Pereira"
+    ],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Simulación",
+    "tematica": "Salud mental",
+    "descripcion": "Propuesta de atención de pacientes en una consulta psicológica.",
+    "portada": "psychologische-praxis.png",
+    "descarga": "https://drive.google.com/file/d/1p9zvpuShtlBY3AxRtKKajljDWSSM3p4D/view"
+  },
+  {
+    "id": "el-eco-de-la-mente",
+    "titulo": "El Eco de la Mente",
+    "autores": [],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "genero": "Por confirmar",
+    "tematica": "Salud mental",
+    "descripcion": "Proyecto estudiantil El Eco de la Mente. Descripción pendiente de confirmar con el informe.",
+    "portada": "el-eco-de-la-mente.png",
+    "descarga": "https://drive.google.com/file/d/1HBhjduc5kqwq_TuzI0qA_QdR0HTmNKaD/view"
   }
 ]
