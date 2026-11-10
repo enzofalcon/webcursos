@@ -7,7 +7,7 @@
 const URL_DATOS = "../../estaticos/datos/juegos.json";
 
 const RUTA_PORTADAS =
-    "../../estaticos/imagenes/catalogoVideojuegos/Imagenes_Catalogo/";
+    "/webcursos/estaticos/imagenes/catalogoVideojuegos/Imagenes_Catalogo/";
 
 let juegos = [];
 
