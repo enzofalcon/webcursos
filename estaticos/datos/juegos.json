@@ -4,233 +4,335 @@
     "titulo": "ECO-SLASH",
     "autores": [
       "Thiago Colman",
-      "Lautaro Martínez"
+      "Lautaro Martínez Mareco"
     ],
     "anio": 2026,
     "curso": "2.º ME",
-    "genero": "Arcade",
     "tematica": "Medioambiente",
     "descripcion": "Juego de reflejos en el que se cortan materiales reciclables y se evita cortar residuos no reciclables.",
-    "portada": "eco-slash.png",
-    "descarga": "https://drive.google.com/file/d/12t53iezwy4AalHFmTYn8Qabqf203Cw5i/view"
+    "portada": "EcoSlash.png",
+    "descarga": "https://drive.google.com/file/d/12t53iezwy4AalHFmTYn8Qabqf203Cw5i/view",
+    "generos": [
+      "Arcade"
+    ]
   },
   {
     "id": "en-las-calles",
     "titulo": "En Las Calles",
     "autores": [
-      "Martín da Silveira"
+      "Martín da Silveira Moller"
     ],
     "anio": 2026,
     "curso": "2.º ME",
-    "genero": "Aventura",
     "tematica": "Problemáticas sociales",
     "descripcion": "Aventura narrativa sobre la situación de las personas que viven en la calle.",
-    "portada": "en-las-calles.png",
-    "descarga": "https://drive.google.com/file/d/1GYTHO1Rn6sLSLYjh4hsC1Mx_XCce4Izm/view"
+    "portada": "EnLasCalles.png",
+    "descarga": "https://drive.google.com/file/d/1GYTHO1Rn6sLSLYjh4hsC1Mx_XCce4Izm/view",
+    "generos": [
+      "Aventura"
+    ]
   },
   {
     "id": "verde",
     "titulo": "Verde",
     "autores": [
-      "Federico Gasdía",
-      "Mateo Esteche"
+      "Federico Gasdía Leivas",
+      "Mateo Esequiel Esteche Medina"
     ],
     "anio": 2026,
     "curso": "2.º ME",
-    "genero": "Plataformas",
     "tematica": "Medioambiente",
     "descripcion": "Juego de plataformas sobre la protección de animales y el cuidado ambiental.",
-    "portada": "verde.png",
-    "descarga": "https://drive.google.com/file/d/1ps93edcf9-47ywtJBX7gIFRpWKdNNQLU/view"
+    "portada": "Verde.png",
+    "descarga": "https://drive.google.com/file/d/1ps93edcf9-47ywtJBX7gIFRpWKdNNQLU/view",
+    "generos": [
+      "Plataformas"
+    ]
   },
   {
     "id": "cyberlost",
     "titulo": "Cyberlost",
     "autores": [
-      "Juan González"
+      "Juan Ignacio González Rosso"
     ],
     "anio": 2026,
     "curso": "2.º ME",
-    "genero": "Plataformas",
     "tematica": "Ciberacoso",
     "descripcion": "Aventura de plataformas en un mundo virtual con enemigos y obstáculos.",
-    "portada": "cyberlost.png",
-    "descarga": "https://drive.google.com/file/d/1lCKpEf5uLngw5MUoQR2LYI0_1_jokc2j/view"
+    "portada": "CyberLost.png",
+    "descarga": "https://drive.google.com/file/d/1lCKpEf5uLngw5MUoQR2LYI0_1_jokc2j/view",
+    "generos": [
+      "Plataformas"
+    ]
   },
   {
     "id": "getting-to-the-root",
     "titulo": "Getting to the Root",
     "autores": [
-      "Nahuel López",
-      "Juan Ignacio Souza"
+      "Nahuel López Bittencourt",
+      "Juan Ignacio Souza Antúnez"
     ],
     "anio": 2026,
     "curso": "2.º ME",
-    "genero": "Boss Rush",
     "tematica": "Salud mental",
     "descripcion": "Enfrentamientos contra jefes que representan emociones y autoconocimiento.",
-    "portada": "getting-to-the-root.png",
-    "descarga": "https://drive.google.com/file/d/1ned6TQLi7VvMYmm38kpzPzRY1ZFClY4L/view"
+    "portada": "GETTINGTOTHEROOT.png",
+    "descarga": "https://drive.google.com/file/d/1ned6TQLi7VvMYmm38kpzPzRY1ZFClY4L/view",
+    "generos": [
+      "Boss Rush"
+    ]
   },
   {
     "id": "mindveil",
     "titulo": "Mindveil",
     "autores": [
-      "Sebastián Madruga",
-      "Juan Maldonado"
+      "Luis Sebastián Madruga Ríos",
+      "Juan Ignacio Maldonado Linari"
     ],
     "anio": 2026,
     "curso": "2.º ME",
-    "genero": "Plataformas",
     "tematica": "Salud mental",
     "descripcion": "Juego de plataformas que representa la ansiedad y la búsqueda de ayuda.",
-    "portada": "mindveil.png",
-    "descarga": "https://drive.google.com/file/d/1ARZGazyYuwVU6oSHEi1y2Azc0tmRoCFa/view"
+    "portada": "MINDVEIL.png",
+    "descarga": "https://drive.google.com/file/d/1ARZGazyYuwVU6oSHEi1y2Azc0tmRoCFa/view",
+    "generos": [
+      "Plataformas"
+    ]
   },
   {
     "id": "shinobu",
     "titulo": "Shinobu",
     "autores": [
-      "Facundo Pimentel"
+      "Facundo Santiago Pimentel Bentancor"
     ],
     "anio": 2026,
     "curso": "2.º ME",
-    "genero": "Aventura narrativa",
     "tematica": "Salud mental",
     "descripcion": "Historia interactiva sobre el duelo y los vínculos personales.",
-    "portada": "shinobu.png",
-    "descarga": "https://drive.google.com/file/d/10ecfBxELX6Im1GZO90eXNTpAdFdTCn2a/view"
+    "portada": "Shinobu.png",
+    "descarga": "https://drive.google.com/file/d/10ecfBxELX6Im1GZO90eXNTpAdFdTCn2a/view",
+    "generos": [
+      "Aventura",
+      "Narrativo"
+    ]
+  },
+  {
+    "id": "nutrity",
+    "titulo": "NutriTy",
+    "autores": [
+      "Agustín Maximiliano Aguirre Martínez",
+      "Joaquín Salazar Pacheco"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "tematica": "Alimentación saludable",
+    "descripcion": "Juego educativo en el que se recogen alimentos saludables para aumentar la vida del personaje.",
+    "portada": "NutriTy.png",
+    "descarga": "https://drive.google.com/file/d/1SfA7jsqKtSqer9iLEeZqdJhD5grcpMHI/view",
+    "generos": [
+      "Educativo"
+    ]
+  },
+  {
+    "id": "21-days-to-change-your-life",
+    "titulo": "21 Days to Change Your Life",
+    "autores": [
+      "Santiago Bordón Espino",
+      "Santiago Suárez Carabajal"
+    ],
+    "anio": 2026,
+    "curso": "2.º ME",
+    "tematica": "Por confirmar",
+    "descripcion": "Proyecto estudiantil sobre el que faltan datos confirmados de las mecánicas y la temática.",
+    "portada": "21DiasparaCambiartuVida.png",
+    "descarga": "https://drive.google.com/file/d/1YzHF2oHaNc9mwc4nlNw9aHXIw78EvB4x/view",
+    "generos": []
   },
   {
     "id": "ecocity",
     "titulo": "EcoCity",
-    "autores": [],
+    "autores": [
+      "Thiago Esequiel Viera Arias",
+      "Franchesca Victoria Vignarolo Romero"
+    ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Acción y aventura",
     "tematica": "Medioambiente",
-    "descripcion": "Recorré una ciudad contaminada, recolectá residuos y enfrentá plagas para recuperar sus espacios.",
-    "portada": "ecocity.png",
-    "descarga": "https://drive.google.com/file/d/1a3pUWDK4LjFzWMuBle_FhrlK2FZNAG_w/view"
+    "descripcion": "Juego de plataformas en 2D donde se recolectan y clasifican residuos, se enfrentan plagas y se recuperan espacios de una ciudad contaminada.",
+    "portada": "Ecocuty.png",
+    "descarga": "https://drive.google.com/file/d/1a3pUWDK4LjFzWMuBle_FhrlK2FZNAG_w/view",
+    "generos": [
+      "Plataformas"
+    ]
   },
   {
     "id": "loto",
     "titulo": "Loto",
     "autores": [
-      "Olivia Sierra",
-      "Sarah Velasquez"
+      "Olivia Sierra Fiori",
+      "Sarah Valentina Velasquez Fermín"
     ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Por confirmar",
-    "tematica": "Por confirmar",
-    "descripcion": "Proyecto estudiantil Loto. Descripción pendiente de confirmar con el informe.",
-    "portada": "loto.png",
-    "descarga": "https://drive.google.com/file/d/1VeSqNJSrDnw3mh9j-CSevkbHev6HcYX8/view"
+    "tematica": "Salud mental",
+    "descripcion": "Experiencia interactiva con actividades de relajación y exploración para reflexionar sobre el bienestar emocional y el afrontamiento de situaciones difíciles.",
+    "portada": "Loto.png",
+    "descarga": "https://drive.google.com/file/d/1VeSqNJSrDnw3mh9j-CSevkbHev6HcYX8/view",
+    "generos": [
+      "Aventura gráfica",
+      "Puzle"
+    ]
   },
   {
     "id": "bienestar-animal",
     "titulo": "Bienestar Animal",
-    "autores": [],
+    "autores": [
+      "Kevin Gabriel Méndez Benavides"
+    ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Por confirmar",
     "tematica": "Bienestar animal",
-    "descripcion": "Videojuego educativo sobre el bienestar animal. Descripción pendiente de confirmar con el informe.",
-    "portada": "bienestar-animal.png",
-    "descarga": "https://drive.google.com/file/d/18lnMEL2EHgd66EAtYmou_zGSimLRexch/view"
+    "descripcion": "Aventura de plataformas en tres niveles para rescatar a Mora, Toby y Lupe, tres perros que atraviesan situaciones de maltrato, pérdida o abandono.",
+    "portada": "BienestarAnimal.png",
+    "descarga": "https://drive.google.com/file/d/18lnMEL2EHgd66EAtYmou_zGSimLRexch/view",
+    "generos": [
+      "Plataformas"
+    ]
   },
   {
     "id": "the-social-media-game",
     "titulo": "The Social Media Game",
-    "autores": [],
+    "autores": [
+      "Diego Alejandro Piñate Bastidas",
+      "Manuel Gabarrín Capote"
+    ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Por confirmar",
-    "tematica": "Redes sociales",
-    "descripcion": "Proyecto estudiantil sobre redes sociales. Descripción pendiente de confirmar con el informe.",
-    "portada": "the-social-media-game.png",
-    "descarga": "https://drive.google.com/file/d/1N_j_OMp0rVcfzzb_X0sAg8RhWcAQYiAW/view"
+    "tematica": "Redes sociales y ciberacoso",
+    "descripcion": "Historia interactiva de Roger, un adolescente que enfrenta situaciones de ciberacoso y toma decisiones que afectan su bienestar.",
+    "portada": "El juego de las redes sociales.png",
+    "descarga": "https://drive.google.com/file/d/1N_j_OMp0rVcfzzb_X0sAg8RhWcAQYiAW/view",
+    "generos": [
+      "Aventura",
+      "Narrativo"
+    ]
   },
   {
     "id": "barrio-en-juego",
     "titulo": "Barrio en Juego",
-    "autores": [],
+    "autores": [
+      "Federico Agustín Fida Perrone",
+      "Aaron Nicolás Rodríguez Baglietto"
+    ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Por confirmar",
-    "tematica": "Por confirmar",
-    "descripcion": "Proyecto estudiantil Barrio en Juego. Descripción pendiente de confirmar con el informe.",
-    "portada": "barrio-en-juego.png",
-    "descarga": "https://drive.google.com/file/d/1vKSmq5lQYWdTIeGjo7BOwC32rz8cdNH3/view"
+    "tematica": "Solidaridad",
+    "descripcion": "Simulador de gestión municipal en Montevideo: durante diez días se resuelven solicitudes de los barrios y se equilibran presupuesto y aprobación ciudadana.",
+    "portada": "BarrioEnJuego.png",
+    "descarga": "https://drive.google.com/file/d/1vKSmq5lQYWdTIeGjo7BOwC32rz8cdNH3/view",
+    "generos": [
+      "Simulación"
+    ]
   },
   {
-    "id": "chitara",
-    "titulo": "Chitara",
-    "autores": [],
+    "id": "ricardito",
+    "titulo": "Ricardito",
+    "autores": [
+      "Pablo Nicolás Chittara Rodríguez"
+    ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Por confirmar",
     "tematica": "Por confirmar",
-    "descripcion": "Proyecto estudiantil Chitara. Descripción pendiente de confirmar con el informe.",
-    "portada": "chitara.png",
-    "descarga": "https://drive.google.com/file/d/1iobDxOM78BtHE8mcQNkUaGXD3vIQLlFG/view"
+    "descripcion": "Videojuego estudiantil Ricardito. Mecánicas y temática pendientes de confirmar.",
+    "portada": "Ricardito.png",
+    "descarga": "https://drive.google.com/file/d/1iobDxOM78BtHE8mcQNkUaGXD3vIQLlFG/view",
+    "generos": [
+      "Plataformas"
+    ]
   },
   {
     "id": "pasos-con-corazon",
     "titulo": "Pasos con Corazón",
     "autores": [
-      "Thiago Araújo",
-      "Juan Mendez"
+      "Thiago Araújo Collazo",
+      "Juan Manuel Méndez Guareschi"
     ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Por confirmar",
-    "tematica": "Por confirmar",
-    "descripcion": "Proyecto estudiantil Pasos con Corazón. Descripción pendiente de confirmar con el informe.",
-    "portada": "pasos-con-corazon.png",
-    "descarga": "https://drive.google.com/file/d/19TMWVjujUx3gxJPGZ2WW04nGFzmhAAdX/view"
+    "tematica": "Inclusión social",
+    "descripcion": "Aventura de exploración y diálogos en la que elegís un compañero animal y ayudás a otros personajes a integrarse y construir vínculos.",
+    "portada": "PasosConElCorazon.png",
+    "descarga": "https://drive.google.com/file/d/19TMWVjujUx3gxJPGZ2WW04nGFzmhAAdX/view",
+    "generos": [
+      "Aventura",
+      "Narrativo"
+    ]
   },
   {
     "id": "limpiemos-uruguay",
     "titulo": "Limpiemos Uruguay",
     "autores": [
-      "Joaquín Alvarez",
-      "Bruno Gutierrez"
+      "Joaquín Iñaqui Álvarez Sosadías",
+      "Bruno Federico Gutiérrez Pereyra"
     ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Aventura",
     "tematica": "Medioambiente",
     "descripcion": "Recorré lugares de Montevideo, recogé residuos y clasificalos para avanzar por cuatro niveles.",
-    "portada": "limpiemos-uruguay.png",
-    "descarga": "https://drive.google.com/file/d/1C-A15bQ3vGkhmlgRquU2fJaarno8qv-f/view"
+    "portada": "LimpiemosUruguay.png",
+    "descarga": "https://drive.google.com/file/d/1C-A15bQ3vGkhmlgRquU2fJaarno8qv-f/view",
+    "generos": [
+      "Aventura"
+    ]
   },
   {
     "id": "psychologische-praxis",
     "titulo": "Psychologische Praxis",
     "autores": [
-      "E. Acosta",
-      "D. Pereira"
+      "Emiliano Julio Acosta Bas",
+      "Diego Agustín Pereira Vasconcellos"
     ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Simulación",
     "tematica": "Salud mental",
-    "descripcion": "Propuesta de atención de pacientes en una consulta psicológica.",
-    "portada": "psychologische-praxis.png",
-    "descarga": "https://drive.google.com/file/d/1p9zvpuShtlBY3AxRtKKajljDWSSM3p4D/view"
+    "descripcion": "Simulación de una consulta psicológica: atendé a tres pacientes, elegí respuestas en los diálogos y observá cómo influyen en su bienestar.",
+    "portada": "Psychologische.png",
+    "descarga": "https://drive.google.com/file/d/1p9zvpuShtlBY3AxRtKKajljDWSSM3p4D/view",
+    "generos": [
+      "Simulación"
+    ]
   },
   {
     "id": "el-eco-de-la-mente",
     "titulo": "El Eco de la Mente",
-    "autores": [],
+    "autores": [
+      "Crystal Reyes Crespo"
+    ],
     "anio": 2026,
     "curso": "2.º MC",
-    "genero": "Por confirmar",
     "tematica": "Salud mental",
-    "descripcion": "Proyecto estudiantil El Eco de la Mente. Descripción pendiente de confirmar con el informe.",
-    "portada": "el-eco-de-la-mente.png",
-    "descarga": "https://drive.google.com/file/d/1HBhjduc5kqwq_TuzI0qA_QdR0HTmNKaD/view"
+    "descripcion": "Aventura interactiva en 2D protagonizada por Leo, un adolescente que explora su mundo interior y practica estrategias de calma ante la ansiedad.",
+    "portada": "ElEcoDeLaMente.png",
+    "descarga": "https://drive.google.com/file/d/1HBhjduc5kqwq_TuzI0qA_QdR0HTmNKaD/view",
+    "generos": [
+      "Aventura"
+    ]
+  },
+  {
+    "id": "mision-de-ayuda",
+    "titulo": "Misión de Ayuda",
+    "autores": [
+      "Agustín Ignacio García Delgado",
+      "Santiago Gabriel Bañasco Elías"
+    ],
+    "anio": 2026,
+    "curso": "2.º MC",
+    "tematica": "Solidaridad",
+    "descripcion": "Aventura en 2D donde se atraviesa un desierto, se recoge agua de distintos pozos y se transporta a pueblos que necesitan ayuda.",
+    "portada": "MisionDeAyuda.png",
+    "descarga": "https://drive.google.com/file/d/1YYqMLXhqfnKF23icj2nZXDNBJkysSxSS/view",
+    "generos": [
+      "Aventura"
+    ]
   }
 ]

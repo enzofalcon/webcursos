@@ -1,41 +1,164 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo de Videojuegos | ITI</title>
-  <link rel="stylesheet" href="../../estaticos/estilos/catalogo-videojuegos.css">
-  <script src="../../estaticos/scripts/catalogo-videojuegos.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo de Videojuegos | ITI</title>
+
+    <link rel="stylesheet" href="../../estaticos/estilos/catalogo-videojuegos.css">
+    <script src="../../estaticos/scripts/catalogo-videojuegos.js" defer></script>
 </head>
+
 <body>
+
+
+  <!-- Encabezado del catálogo -->
   <header class="catalogo-header">
-    <div class="header-contenido">
-      <a href="../2MCMEVideojuegosITI.html" class="volver-curso">← Volver al curso de Videojuegos</a>
-      <span class="subtitulo">Proyectos estudiantiles · ITI</span>
-      <h1>Catálogo de Videojuegos</h1>
-      <p>Una muestra de videojuegos desarrollados por estudiantes a lo largo de las distintas generaciones del curso.</p>
-    </div>
+      <div class="header-contenido">
+
+          <a href="../2MCMEVideojuegosITI.html" class="volver-curso">
+              ← Volver al curso de Videojuegos
+          </a>
+
+          <span class="subtitulo">
+              Proyectos estudiantiles · ITI
+          </span>
+
+          <h1 class="catalogo-titulo">
+              Catálogo de <span>Videojuegos</span>
+          </h1>
+
+          <p>
+              Videojuegos desarrollados por estudiantes de segundo año
+              del Instituto Tecnológico de Informática, donde la creatividad,
+              la programación y el diseño se combinan para abordar
+              distintas problemáticas sociales y ambientales.
+          </p>
+
+          <p class="header-descripcion">
+              Cada proyecto propone una experiencia interactiva que invita
+              a jugar, aprender y reflexionar sobre temas como la salud mental,
+              la inclusión, la solidaridad, el bienestar animal y el cuidado
+              del medioambiente.
+          </p>
+
+      </div>
   </header>
-  <main class="catalogo-contenido">
-    <section class="catalogo-presentacion">
-      <h2>Explorar videojuegos</h2>
-      <p>Conocé los proyectos, sus autores y las ideas desarrolladas durante el curso. Los enlaces permiten acceder a sus archivos en Google Drive.</p>
-    </section>
-    <section class="catalogo-filtros" aria-label="Buscar y filtrar videojuegos">
-      <input type="search" id="busqueda" placeholder="Buscar un videojuego..." aria-label="Buscar videojuego">
-      <select id="filtro-anio" aria-label="Filtrar por año"><option value="todos">Todos los años</option></select>
-      <select id="filtro-genero" aria-label="Filtrar por género"><option value="todos">Todos los géneros</option></select>
-      <select id="filtro-curso" aria-label="Filtrar por curso"><option value="todos">Todos los cursos</option></select>
-      <select id="filtro-tematica" aria-label="Filtrar por temática"><option value="todos">Todas las temáticas</option></select>
-    </section>
-    <p id="cantidad-resultados" class="cantidad-resultados" role="status">Cargando videojuegos...</p>
-    <section id="lista-juegos" class="catalogo-grid" aria-label="Videojuegos disponibles"></section>
-    <p id="sin-resultados" class="sin-resultados" hidden>No se encontraron videojuegos con esos criterios.</p>
-    <section class="catalogo-presentacion aviso-descargas">
-      <h2>Sobre las descargas</h2>
-      <p>Los videojuegos son proyectos educativos. Los archivos se alojan en Google Drive y están destinados a Windows. Se recomienda verificar el origen y analizar los archivos antes de ejecutarlos.</p>
-    </section>
-  </main>
-  <footer class="catalogo-footer"><p>Catálogo de proyectos estudiantiles</p><p>Prof. Enzo Falcón</p></footer>
+
+
+    <!-- Contenido principal -->
+    <main class="catalogo-contenido">
+
+        <!-- Presentación -->
+        <section class="catalogo-presentacion">
+
+            <h2>Explorar videojuegos</h2>
+
+            <p>
+                Conocé los proyectos, sus autores y las ideas desarrolladas
+                durante el curso. Explorá los videojuegos por año, género,
+                grupo o temática y accedé a sus archivos de descarga.
+            </p>
+
+        </section>
+
+        <!-- Buscador y filtros -->
+        <section
+            class="catalogo-filtros"
+            aria-label="Buscar y filtrar videojuegos"
+        >
+
+            <input
+                type="search"
+                id="busqueda"
+                placeholder="Buscar un videojuego..."
+                aria-label="Buscar videojuego"
+            >
+
+            <select
+                id="filtro-anio"
+                aria-label="Filtrar por año"
+            >
+                <option value="todos">Todos los años</option>
+            </select>
+
+            <select
+                id="filtro-genero"
+                aria-label="Filtrar por género"
+            >
+                <option value="todos">Todos los géneros</option>
+            </select>
+
+            <select
+                id="filtro-curso"
+                aria-label="Filtrar por curso"
+            >
+                <option value="todos">Todos los cursos</option>
+            </select>
+
+            <select
+                id="filtro-tematica"
+                aria-label="Filtrar por temática"
+            >
+                <option value="todos">Todas las temáticas</option>
+            </select>
+
+        </section>
+
+        <!-- Cantidad de resultados -->
+        <p
+            id="cantidad-resultados"
+            class="cantidad-resultados"
+            role="status"
+            aria-live="polite"
+        >
+            Cargando videojuegos...
+        </p>
+
+        <!-- Catálogo de videojuegos -->
+        <!-- Las tarjetas se generan mediante JavaScript -->
+        <section
+            id="lista-juegos"
+            class="catalogo-grid"
+            aria-label="Videojuegos disponibles"
+        ></section>
+
+        <!-- Mensaje cuando no hay resultados -->
+        <p
+            id="sin-resultados"
+            class="sin-resultados"
+            hidden
+        >
+            No se encontraron videojuegos con esos criterios.
+        </p>
+
+        <!-- Información sobre las descargas -->
+        <section class="catalogo-presentacion aviso-descargas">
+
+            <h2>Sobre las descargas</h2>
+
+            <p>
+                Los videojuegos publicados son proyectos educativos
+                desarrollados por estudiantes. Los archivos se alojan
+                en Google Drive y están destinados a Windows.
+                Se recomienda verificar el origen y analizar los archivos
+                antes de ejecutarlos.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="catalogo-footer">
+
+        <p>Catálogo de proyectos estudiantiles · ITI</p>
+        <p>Prof. Enzo Falcón</p>
+
+    </footer>
+
 </body>
 </html>
